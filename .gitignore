@@ -8,3 +8,4 @@ DjangoCN/__pycache__/
 DjangoCN/__init__.py
 *.pyc
 .gitignore~
+.DS_Store
