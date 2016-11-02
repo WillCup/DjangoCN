@@ -4,8 +4,8 @@
 .idea/misc.xml
 .idea/modules.xml
 .idea/workspace.xml
+.idea/*
 DjangoCN/__pycache__/
-DjangoCN/__init__.py
 *.pyc
 .gitignore~
 .DS_Store
