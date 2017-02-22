@@ -1,11 +1,10 @@
 # DjangoCN_Web
 Django中国论坛
 
-1.Django version == 1.10
+1.Django version == 1.10.5  
+2.Python version >= Python3.5.x
 
-2.Python version == Python3.5.x
-
-# =================================
+# 
   后台用户验证
 
   爬虫新闻抓取
@@ -17,6 +16,6 @@ Django中国论坛
   CMS消息CURD
 
   开源工具类
-# ================================ 
-## 视图
-### 教程 问答 学习项目 技术分享
+# 
+
+测试账号: admin admin12345
