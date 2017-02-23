@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'FAQuestion',
     'Tutorial',
     'Usercenter',
+    'Comment',
 ]
 
 MIDDLEWARE = [

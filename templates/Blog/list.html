@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}My Blog{% endblock %}
+{% block content %}
+<br>
+  <h1 class="navbgcolor header">Newest Post List</h1>
+  {% for post in posts %}
+    <h2>
+      <a href="{{ post.get_absolute_url }}">
+        {{ post.id }}.{{ post.title }}
+      </a>
+    </h2>
+    <p class="date">
+      Published {{ post.publish }} by {{ post.author }}
+    </p>
+    {{ post.body|truncatewords:30|linebreaks }}
+    <div class="ui divider"></div>
+  {% endfor %}
+{% endblock %}

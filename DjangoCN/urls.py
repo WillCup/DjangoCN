@@ -22,5 +22,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^tutorial/', include('Tutorial.urls', namespace='Tutorial')),
     url(r'^FAQuestion/', include('FAQuestion.urls', namespace='FAQuestion')),
+    url(r'^blog/', include('Blog.urls', namespace='Blog', app_name='Blog')),
     url(r'^$', index, name='index')
 ]
