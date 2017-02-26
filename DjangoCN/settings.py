@@ -35,13 +35,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Blog',
-    'Captcha',
-    'Collect',
-    'FAQuestion',
-    'Tutorial',
-    'Usercenter',
-    'Comment',
+    'blog',
+    'captcha',
+    'collect',
+    'faquestion',
+    'tutorial',
+    'usercenter',
+    'comment',
 ]
 
 MIDDLEWARE = [
@@ -88,7 +88,7 @@ DATABASES = {
     }
 }
 # custom Auth Model.
-AUTH_USER_MODEL = 'Usercenter.User'
+AUTH_USER_MODEL = 'usercenter.User'
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
 

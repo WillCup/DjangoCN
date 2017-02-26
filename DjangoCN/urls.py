@@ -16,12 +16,12 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 
-from Tutorial.views import index
+from tutorial.views import index
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^tutorial/', include('Tutorial.urls', namespace='Tutorial')),
-    url(r'^FAQuestion/', include('FAQuestion.urls', namespace='FAQuestion')),
-    url(r'^blog/', include('Blog.urls', namespace='Blog', app_name='Blog')),
+    url(r'^Tutorial/', include('tutorial.urls', namespace='Tutorial')),
+    url(r'^FAQuestion/', include('faquestion.urls', namespace='FAQuestion')),
+    url(r'^Blog/', include('blog.urls', namespace='Blog', app_name='blog')),
     url(r'^$', index, name='index')
 ]
